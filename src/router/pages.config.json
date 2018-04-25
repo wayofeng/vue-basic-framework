@@ -1,0 +1,38 @@
+[
+    {
+        "path": "/",
+        "component": "navs",
+        "children": [
+            {
+                "path": "",
+                "name": "home",
+                "component": "home"
+            },
+            {
+                "path": "category",
+                "name": "category",
+                "component": "category"
+            },
+            {
+                "path": "shopping-car",
+                "name": "shoppingCar",
+                "component": "shoppingCar"
+            },
+            {
+                "path": "my",
+                "name": "my",
+                "component": "my"
+            }
+        ]
+    },
+    {
+        "path": "/product-list",
+        "name": "productList",
+        "component": "productList"
+    },
+    {
+        "path": "/product-detail",
+        "name": "productDetail",
+        "component": "productDetail"
+    }
+]
